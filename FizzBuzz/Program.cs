@@ -11,7 +11,7 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            for (int index = 0; index < 100; index++)
+            for (int index = 0; index <= 100; index++)
             {
                 if (index % 3 == 0 && index % 5 == 0)
                 {
